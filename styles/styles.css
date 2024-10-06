@@ -29,16 +29,22 @@ section#cellphone{
     background-repeat: no-repeat;
 }
 section#logos{
-position: absolute;
-width: 2.9%;
-left: 97%;
-top: 2%;
-transform: translate(1%,1%);
-line-height: 2.4em;
+    position: relative;
+    top: 20px;
+line-height: 3.1em;
+text-align: right;
 }
 img{
-    width: 100%;
-    border-radius: 60px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px #000000af;
+}
+img:hover{
+    border: 1px solid #ffffffd0;
+   box-sizing: border-box;
+   transform: translate(-3%, -3%);
+   box-shadow: 4px 4px 4px black;
+   transition: transform 0.6s, border 1s;
 }
 iframe{
     position: relative;
